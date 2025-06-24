@@ -91,7 +91,7 @@ abstract class MyStyle<T, E extends Exception, C extends Coffee> {
   // Choose the right tool for each component
   T selectBestTechnology(Problem problem) {
     if (problem.deadline.isYesterday()) {
-      return javascript; // It's always JavaScript when I'm panicking
+      return python; // It's always Python when I'm panicking
     }
     
     return availableTechnologies
