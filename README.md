@@ -1,81 +1,114 @@
-# 👨‍💻 OPVL
+# 👨‍💻 Hi, I'm OPVL
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=opvl&theme=nord&margin-w=15&rank=SECRET,SSS,SS,S,AAA,AA,A,BBB,BB,B" alt="OPVL's GitHub trophies" />
+<div align="left">
+  
+  ![My GitHub trophies](https://github-profile-trophy.vercel.app/?username=opvl&theme=nord&margin-w=15&rank=SECRET,SSS,SS,S,AAA,AA,A,BBB,BB,B)
+  
+  > "There are only two hard things in Computer Science: cache invalidation, naming things, and off-by-one errors."
+  > 
+  > (I'm particularly good at the off-by-one errors)
+
 </div>
 
-## 🧙‍♂️ The Developer
+## 🧙‍♂️ Who Am I?
 
-> "Code is like humor. When you have to explain it, it's bad." — Cory House
+```
+$ whoami
+> just_another_dev_with_too_many_side_projects
+```
 
-OPVL is a passionate developer with a knack for creating elegant, user-focused tools that solve real-world problems. A true polyglot programmer, OPVL believes in selecting the right technology for each specific challenge rather than forcing a one-size-fits-all approach. This philosophy is evident across their diverse portfolio, where each project leverages the most appropriate tech stack for its unique requirements.
+I'm a passionate developer who believes that choosing the right programming language is like picking the right tool from a Swiss Army knife - it depends entirely on what you're trying to cut, file, or uncork. 
 
-## 🛠️ Tech Stack
+I switch programming languages more often than I change my desktop wallpaper (which, to be fair, has been the same "I'll customize it later" default for about 3 years now). When faced with a problem, I don't ask "How can I solve this with [favorite_language]?" but rather "Which language would hate solving this problem the least?"
+
+## 🛠️ My Tech Stack Overflow
 
 ```javascript
-// OPVL doesn't believe in language wars - just the right tool for each job
-const opvl = {
+// My relationship status with technology: "It's complicated"
+const me = {
   approach: 'polyglot',
-  languages: ['TypeScript', 'JavaScript', 'Dart', 'Python', 'Go', 'C++', 'PHP', 'SQL'],
-  frameworks: ['Flutter', 'React', 'Laravel', 'Vue', 'FastAPI', 'Express'],
-  tools: ['Git', 'Docker', 'VS Code', 'Figma', 'OAuth2.0'],
+  languages: [
+    'TypeScript', 'JavaScript', 'Dart', 'Python', 
+    'Go', 'C++', 'PHP', 'SQL', 
+    // and whatever I impulsively learned last weekend
+  ],
+  frameworks: [
+    'Flutter', 'React', 'Laravel', 'Vue', 
+    'FastAPI', 'Express',
+    // ...others I've installed but never actually used
+  ],
+  tools: [
+    'Git', 'Docker', 'VS Code', 'Figma', 'OAuth2.0',
+    'Coffee Machine' // my most critical development tool
+  ],
   platforms: ['macOS', 'Linux', 'AWS', 'Firebase', 'Mobile'],
   interests: ['UI/UX', 'Developer Tools', 'Security', 'Privacy', 'Mental Health Tech'],
-  philosophy: (problem) => findBestToolFor(problem)
+  philosophy: (problem) => findBestToolFor(problem),
+  debugStrategy: () => console.log("It worked on my machine! 🤷‍♂️"),
+  estimationAccuracy: Date.now() * 2 // always off by a factor of 2
 };
 ```
 
-## 🌟 Notable Projects
+## 🌟 My Projects (a.k.a. "Things I Thought Would Take a Weekend")
 
-### Keeper
-A macOS menu bar utility for managing API tokens with GitLab integration. Built with Flutter, Keeper provides a seamless experience for developers working with multiple repositories and services.
+### 🔐 Keeper
+A macOS menu bar utility for managing API tokens with GitLab integration. I built it with Flutter because native apps are so 2010. Keeper ensures you'll never have to paste a token from a sticky note again (I know you have them, because I had about 37).
 
-### Moood
-A FOSS mood tracking application with companion self-hosted server. Designed with privacy and security as core principles, Moood analyzes patterns in mood data to identify triggers and provide insights. Originally created as a personal tool during difficult times, it evolved into a comprehensive mental health companion. Development was paused but has recently been revitalized with a beta release targeted for Q4 2025.
+### 😌 Moood
+A FOSS mood tracking application with companion self-hosted server. I created this during some dark times as a reminder that not every day is terrible - just most of them! It uses fancy algorithms to tell me what I already know: I'm happier when I sleep more and doomscroll less. Beta release coming Q4 2025 (or whenever my existential dread subsides enough to finish it).
 
-### Hush
-An end-to-end encrypted notes application built with Flutter and Python FastAPI. Hush implements a zero-trust architecture where neither the device, server, nor transport layer need to be trusted. The elegant simplicity of the app belies the sophisticated encryption mechanisms working behind the scenes to keep user data truly private.
+### 🤫 Hush
+An end-to-end encrypted notes application so secure that sometimes even I can't access my data. Built with Flutter and Python FastAPI because apparently one language wasn't complicated enough for me. Implements zero-trust architecture because I don't even trust my own code (and neither should you).
 
-### Spear
-A Laravel and Vue platform designed for simulating spear phishing attacks in training environments. Leveraging a sophisticated OAuth 2.0 implementation, Spear could impersonate key organizational members to test security awareness. The project was discontinued and the repository removed after concerns about potential misuse, demonstrating OPVL's commitment to responsible security tooling.
+### 🎣 Spear
+A Laravel & Vue platform for simulating phishing attacks that worked *too* well. It was used for training until someone decided to "train" a CEO without permission. I discontinued this project faster than you can say "resume update." The repository was taken down, but the legend lives on in hushed conversations at security conferences where I pretend I wasn't involved.
 
-### LUXX
-OPVL's first major project—a C++ modification menu for GTA focusing on vehicle handling and customization. What began as a standalone project evolved into a sophisticated hooking mechanism that gained recognition in the modding community. The project was eventually discontinued after receiving a cease and desist order, but not before establishing OPVL's technical prowess even at a young age.
+### 🚗 LUXX
+My first major project—a C++ mod menu for GTA that received the highest honor in software development: a cease and desist letter. What started as a vehicle customization tool evolved into a sophisticated hooking mechanism that impressed everyone except Rockstar's legal team. Nothing says "you've made it" like getting legally threatened before you're old enough to vote.
 
-### Other Contributions
-OPVL has contributed to various open-source projects, focusing on developer experience and tooling improvements across multiple languages and frameworks.
+## 💭 My Philosophy (or "Things I Mutter While Debugging at 3 AM")
 
-## 💭 Philosophy
+- **Right Tool for the Job**: Because forcing everything into JavaScript is like performing surgery with a spoon
+- **User-First Design**: If users need a manual, my UI has already failed
+- **Clean Architecture**: I write code so clean you could eat off it (please don't, I need my laptop)
+- **Accessibility**: Building software that works for everyone, because exclusivity is so Web 1.0
+- **Open Source**: Contributing to the community because karma might help fix those mysterious production bugs I definitely didn't cause
 
-OPVL approaches software development with these principles:
-
-- **Right Tool for the Job**: Embracing language and framework diversity to solve problems optimally
-- **User-First Design**: Creating tools that feel intuitive and solve real problems
-- **Clean Architecture**: Building maintainable, modular code that stands the test of time
-- **Accessibility**: Ensuring software works for everyone, regardless of ability
-- **Open Source**: Contributing to and supporting the open source community
-
-## 🎯 Coding Style
+## 🎯 My Coding Style: A Dramatic Interpretation
 
 ```dart
-// OPVL's coding style transcends specific languages
-abstract class OPVLStyle<T> {
-  // Language-agnostic principles
+// My coding style: "Consistently inconsistent"
+abstract class MyStyle<T, E extends Exception, C extends Coffee> {
+  // Language-agnostic principles that transcend my mortal understanding
   
-  // Clean, descriptive naming
-  final bool usesDescriptiveNames = true;
+  // Clean, descriptive naming (except when I'm tired)
+  final bool usesDescriptiveNames = DateTime.now().hour < 22;
+  final Map<String, String> variableNames = {
+    'before_coffee': 'x',
+    'after_coffee': 'descriptiveAndWellThoughtOutVariableName'
+  };
   
   // Choose the right tool for each component
   T selectBestTechnology(Problem problem) {
+    if (problem.deadline.isYesterday()) {
+      return javascript; // It's always JavaScript when I'm panicking
+    }
+    
     return availableTechnologies
         .where((tech) => tech.canSolve(problem))
         .orderBy((tech) => tech.efficiencyFor(problem))
         .first;
   }
   
-  // Modular, focused components
+  // Modular, focused components (in theory)
   List<Component> createComponents() {
-    return components.map((c) => c.makeModular()).toList();
+    // Start with good intentions
+    if (project.isNewAndExciting) {
+      return components.map((c) => c.makeModular()).toList();
+    } else {
+      // Reality sets in around day 3
+      return [oneGiantComponentThatDoesEverything];
+    }
   }
   
   // Thoughtful error handling
@@ -84,7 +117,7 @@ abstract class OPVLStyle<T> {
       final result = await performOperation();
       return Success<T>(result);
     } catch (e) {
-      logError(e);  // Never silent errors
+      logError(e);  // With increasingly desperate comments
       return Failure<T>(e);
     }
   }
@@ -93,34 +126,50 @@ abstract class OPVLStyle<T> {
   void addEasterEgg() {
     if (Math.random() < 0.1) {  // 10% chance
       showEasterEgg('🥚');
+    } else if (project.hasDeadline && project.client.isTooSerious) {
+      addEvenMoreEasterEggs(); // They'll never find them all
+    }
+  }
+  
+  // Documentation strategy
+  void documentCode() {
+    if (willIRememberThisIn6Months == false) {
+      addComment("Don't ask how this works, it just does");
     }
   }
 }
 ```
 
-## 🔮 Future Directions
+## 🔮 Future Directions (or "Things I'll Start But Never Finish")
 
-OPVL continues to explore:
-- Cross-platform developer tools
-- Privacy-focused applications
-- Mental health technology
-- Secure communication systems
-- UI/UX innovations for technical tools
-- Accessibility in developer tooling
+I'm continuing to explore:
+- Cross-platform developer tools that work on every platform (except the one you need)
+- Privacy-focused applications (because someone has to fight Big Tech)
+- Mental health technology (cheaper than my therapy)
+- Secure communication systems (that will be obsolete by quantum computing anyway)
+- UI/UX innovations that users will complain about until the next redesign
+- Accessibility features that should have been standard 10 years ago
 
 ## 📫 Connect
 
-While OPVL maintains a focused online presence, their work speaks volumes through the quality of their code and thoughtful approach to problem-solving.
+I maintain a focused online presence, which is a nice way of saying I'm terrible at social media. My work speaks through my code, which is fortunate because my actual speaking involves a lot of "um" and "like" and "let me just check Stack Overflow real quick."
 
 ---
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=OPVL&color=blueviolet" alt="Profile views" />
   <br/><br/>
-  <p>"The best code is no code at all." — Jeff Atwood</p>
+  
+  <p>"The best code is no code at all. The second best is code that looks like it doesn't exist." — Me, after deleting a feature that never worked anyway</p>
+  
+  ![Visitor Count](https://profile-counter.glitch.me/OPVL/count.svg)
 </div>
 
 <!-- 
-  OPVL's secret: They sometimes hide messages in comments.
-  If you're reading this, you've found one!
+  My secret: I sometimes hide messages in comments.
+  If you're reading this, you've found one! Your prize is... more of my code to review. Sorry about that.
+-->
+
+<!-- 
+  Fun fact: This README contains exactly 0 bugs. The same cannot be said for my actual code.
 -->
