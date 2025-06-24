@@ -1,9 +1,9 @@
 # 👨‍💻 OPVL
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=OPVL&show_icons=true&theme=radical" alt="OPVL's GitHub stats" />
+[  <img src="https://github-readme-stats.vercel.app/api?username=OPVL&show_icons=true&theme=radical" alt="OPVL's GitHub stats" />
   <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=OPVL&theme=radical" alt="OPVL's GitHub streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=OPVL&theme=radical" alt="OPVL's GitHub streak" />](https://github-profile-trophy.vercel.app/?username=opvl&theme=nord&margin-w=15&rank=SECRET,SSS,SS,S,AAA,AA,A)
 </div>
 
 ## 🧙‍♂️ The Developer Behind Keeper
